@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Resume page</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      <h1 class="visually-hidden">Main page user profile</h1>
+      <div class="header__top-wrap">
+        <ul class="header__breadcrumbs-list">
+          <li class="header__breadcrumbs-item header__breadcrumbs-item_previouse">
+            <a href="" class="header__breadcrumbs-link">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.73251 16.0174C9.91251 16.0174 10.0825 15.9474 10.2125 15.8074C10.4525 15.5374 10.4325 15.1274 10.1725 14.8874L7.28136 12.1674H15.35C16.6479 12.1674 17.7 13.2195 17.7 14.5174V16.2971C17.7 16.656 17.991 16.9471 18.35 16.9471C18.709 16.9471 19 16.656 19 16.2971V14.5174C19 12.5015 17.3658 10.8674 15.35 10.8674H7.27185L7.27194 10.8519L10.1325 8.43738C10.4025 8.19738 10.4125 7.78738 10.1725 7.51738C9.93249 7.25738 9.52249 7.23738 9.25249 7.47738L5.2325 10.9819C4.9225 11.2619 4.9225 11.7419 5.2325 12.0219L9.29251 15.8474C9.42251 15.9674 9.57251 16.0174 9.73251 16.0174Z" fill="#505050"/>
+              </svg>
+            </a>
+          </li>
+          <li class="header__breadcrumbs-item header__breadcrumbs-item_current">
+            <a href="" class="header__breadcrumbs-link">User pages</a>
+          </li>
+          <li class="header__breadcrumbs-item">
+            <a href="" class="header__breadcrumbs-link">Profile</a>
+          </li>
+        </ul>
+        <ul class="header__planning-panel">
+          <li class="header__planning-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M19.0281 18.6972V10.9909C19.0281 9.91399 18.1551 9.04094 17.0781 9.04094C16.0011 9.04094 15.1281 9.91399 15.1281 10.9909L15.1281 18.6972H13.9501V15.5534C13.9501 14.4765 13.077 13.6034 12.0001 13.6034C10.9231 13.6034 10.0501 14.4765 10.0501 15.5534V18.6972H8.87197L8.87197 12.9909C8.87197 11.914 7.99892 11.0409 6.92197 11.0409C5.84501 11.0409 4.97197 11.914 4.97197 12.9909L4.97197 18.6972H3.93369C3.57471 18.6972 3.28369 18.9882 3.28369 19.3472C3.28369 19.7062 3.57471 19.9972 3.93369 19.9972H5.92149C5.92133 19.9972 5.92165 19.9972 5.92149 19.9972H7.92197C7.92174 19.9972 7.9222 19.9972 7.92197 19.9972H10.9992C10.9989 19.9972 10.9995 19.9972 10.9992 19.9972H13.0001C13.0004 19.9972 13.0008 19.9972 13.0011 19.9972H16.0769C16.0773 19.9972 16.0777 19.9972 16.0781 19.9972H18.0781C18.0785 19.9972 18.0789 19.9972 18.0794 19.9972H20.0665C20.4255 19.9972 20.7165 19.7062 20.7165 19.3472C20.7165 18.9882 20.4255 18.6972 20.0665 18.6972H19.0281ZM17.7281 18.6972V10.9909C17.7281 10.632 17.4371 10.3409 17.0781 10.3409C16.7191 10.3409 16.4281 10.632 16.4281 10.9909V18.6972H17.7281ZM6.27197 18.6972L6.27197 12.9909C6.27197 12.632 6.56298 12.3409 6.92197 12.3409C7.28095 12.3409 7.57197 12.632 7.57197 12.9909V18.6972H6.27197ZM11.3501 18.6972H12.6501V15.5534C12.6501 15.1945 12.3591 14.9034 12.0001 14.9034C11.6411 14.9034 11.3501 15.1945 11.3501 15.5534V18.6972Z" fill="#5095EC"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M19.0781 5.69092C19.0781 6.79549 18.1827 7.69092 17.0781 7.69092C16.7419 7.69092 16.4251 7.60798 16.1471 7.46145L13.8606 9.58062C13.8549 9.56614 13.849 9.55174 13.8429 9.53743C13.9441 9.7767 14.0001 10.0398 14.0001 10.3159C14.0001 11.4205 13.1047 12.3159 12.0001 12.3159C10.8955 12.3159 10.0001 11.4205 10.0001 10.3159C10.0001 10.2509 10.0032 10.1866 10.0093 10.1232L8.25504 9.18188C7.90124 9.49844 7.43408 9.69092 6.92196 9.69092C5.81739 9.69092 4.92196 8.79549 4.92196 7.69092C4.92196 6.58635 5.81739 5.69092 6.92196 5.69092C8.02653 5.69092 8.92196 6.58635 8.92196 7.69092C8.92196 7.81259 8.9111 7.93173 8.89028 8.04741L10.5503 8.93817C10.5179 8.97224 10.4867 9.00745 10.4568 9.04373C10.8236 8.59924 11.3788 8.31592 12.0001 8.31592C12.3705 8.31592 12.7173 8.41659 13.0148 8.59206C13.0148 8.59206 13.0148 8.59206 13.0148 8.59206L15.2554 6.51538C15.1415 6.26399 15.0781 5.98486 15.0781 5.69092C15.0781 4.58635 15.9735 3.69092 17.0781 3.69092C18.1827 3.69092 19.0781 4.58635 19.0781 5.69092ZM17.7781 5.69092C17.7781 6.07752 17.4647 6.39092 17.0781 6.39092C16.6915 6.39092 16.3781 6.07752 16.3781 5.69092C16.3781 5.30432 16.6915 4.99092 17.0781 4.99092C17.4647 4.99092 17.7781 5.30432 17.7781 5.69092ZM7.62196 7.69092C7.62196 8.07752 7.30856 8.39092 6.92196 8.39092C6.53536 8.39092 6.22196 8.07752 6.22196 7.69092C6.22196 7.30432 6.53536 6.99092 6.92196 6.99092C7.30856 6.99092 7.62196 7.30432 7.62196 7.69092ZM12.0001 11.0159C12.3867 11.0159 12.7001 10.7025 12.7001 10.3159C12.7001 9.92932 12.3867 9.61592 12.0001 9.61592C11.6135 9.61592 11.3001 9.92932 11.3001 10.3159C11.3001 10.7025 11.6135 11.0159 12.0001 11.0159Z" fill="#5095EC"/>
+            </svg>           
+            <a class="header__planning-link" href="" >Statistics</a>
+          </li>
+          <li class="header__planning-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.86938 10.1843C7.51039 10.1843 7.21938 9.89331 7.21938 9.53433V8.68422H6.36938C6.01039 8.68422 5.71938 8.3932 5.71938 8.03422C5.71938 7.67523 6.01039 7.38422 6.36938 7.38422H7.21938V6.53433C7.21938 6.17534 7.51039 5.88433 7.86938 5.88433C8.22836 5.88433 8.51938 6.17534 8.51938 6.53433V7.38422H9.36938C9.72836 7.38422 10.0194 7.67523 10.0194 8.03422C10.0194 8.3932 9.72836 8.68422 9.36938 8.68422H8.51938V9.53433C8.51938 9.89331 8.22836 10.1843 7.86938 10.1843Z" fill="#5095EC"/>
+              <path d="M9.38966 17.6766C9.13582 17.9305 8.72426 17.9305 8.47042 17.6766L7.86931 17.0755L7.26828 17.6765C7.01444 17.9304 6.60288 17.9304 6.34904 17.6765C6.0952 17.4227 6.0952 17.0111 6.34904 16.7573L6.95007 16.1563L6.3491 15.5553C6.09526 15.3014 6.09526 14.8899 6.3491 14.6361C6.60294 14.3822 7.0145 14.3822 7.26834 14.6361L7.86931 15.237L8.47036 14.636C8.7242 14.3821 9.13576 14.3821 9.3896 14.636C9.64344 14.8898 9.64344 15.3014 9.3896 15.5552L8.78855 16.1563L9.38966 16.7574C9.6435 17.0112 9.6435 17.4228 9.38966 17.6766Z" fill="#5095EC"/>
+              <path d="M15.2561 14.4544C14.8971 14.4544 14.6061 14.7454 14.6061 15.1044C14.6061 15.4634 14.8971 15.7544 15.2561 15.7544H17.2561C17.6151 15.7544 17.9061 15.4634 17.9061 15.1044C17.9061 14.7454 17.6151 14.4544 17.2561 14.4544H15.2561Z" fill="#5095EC"/>
+              <path d="M14.6061 17.1405C14.6061 16.7816 14.8971 16.4905 15.2561 16.4905H17.2561C17.6151 16.4905 17.9061 16.7816 17.9061 17.1405C17.9061 17.4995 17.6151 17.7905 17.2561 17.7905H15.2561C14.8971 17.7905 14.6061 17.4995 14.6061 17.1405Z" fill="#5095EC"/>
+              <path d="M14.6061 8.03428C14.6061 7.67529 14.8971 7.38428 15.2561 7.38428H17.2561C17.6151 7.38428 17.9061 7.67529 17.9061 8.03428C17.9061 8.39326 17.6151 8.68428 17.2561 8.68428H15.2561C14.8971 8.68428 14.6061 8.39326 14.6061 8.03428Z" fill="#5095EC"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M18 21C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6C4.4467 3 3.16912 4.1805 3.01549 5.69327C3.00525 5.79412 3 5.89645 3 6V18C3 19.6569 4.34315 21 6 21H18ZM4.3 6C4.3 5.06112 5.06112 4.3 6 4.3L11.3522 4.3V11.3463H4.3V6ZM4.3 12.6463V18C4.3 18.9389 5.06112 19.7 6 19.7H11.3522V12.6463H4.3ZM12.6522 19.7H18C18.9389 19.7 19.7 18.9389 19.7 18V12.6463H12.6522V19.7ZM19.7 11.3463V6C19.7 5.06112 18.9389 4.3 18 4.3H12.6522V11.3463H19.7Z" fill="#5095EC"/>
+            </svg>
+            <a class="header__planning-link" href="" >Invoices</a>            
+          </li>
+          <li class="header__planning-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.65023 6.99888C8.29112 6.99888 8 7.28976 8 7.64858C8 8.00739 8.29112 8.29827 8.65023 8.29827H15.3527C15.7118 8.29827 16.0029 8.00739 16.0029 7.64858C16.0029 7.28976 15.7118 6.99888 15.3527 6.99888H8.65023Z" fill="#5095EC"/>
+              <path d="M8 10.6472C8 10.2884 8.29112 9.99748 8.65023 9.99748H15.3526C15.7118 9.99748 16.0029 10.2884 16.0029 10.6472C16.0029 11.006 15.7118 11.2969 15.3526 11.2969H8.65023C8.29112 11.2969 8 11.006 8 10.6472Z" fill="#5095EC"/>
+              <path d="M8 13.6458C8 13.287 8.29112 12.9961 8.65023 12.9961H11.8514C12.2105 12.9961 12.5016 13.287 12.5016 13.6458C12.5016 14.0046 12.2105 14.2955 11.8514 14.2955H8.65023C8.29112 14.2955 8 14.0046 8 13.6458Z" fill="#5095EC"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M5 19.3936L5.00893 5.59989C5.00893 4.16462 6.1734 3.0011 7.60986 3.0011H16.3991C17.8355 3.0011 19 4.16462 19 5.59989L18.9911 19.3991C18.9911 20.6529 17.6129 21.4191 16.5467 20.7581L14.8715 19.7196C14.6634 19.5906 14.3979 19.601 14.2005 19.7458L12.9123 20.6909C12.3486 21.1045 11.5814 21.1045 11.0177 20.6909L9.73916 19.7529C9.54025 19.607 9.27229 19.5976 9.06373 19.7294L7.45607 20.7453C6.39034 21.4187 5 20.6536 5 19.3936ZM17.6911 19.3983L17.7 5.59989C17.7 4.8836 17.1186 4.3011 16.3991 4.3011H7.60986C6.89036 4.3011 6.30893 4.88444 6.30893 5.60073L6.3 19.3939C6.30021 19.6278 6.55998 19.7737 6.76164 19.6463L8.3693 18.6304C9.02973 18.2131 9.87828 18.2426 10.5082 18.7047L11.7867 19.6428C11.8927 19.7205 12.0373 19.7205 12.1433 19.6428L13.4315 18.6977C14.0565 18.2391 14.8976 18.2062 15.5565 18.6147L17.2316 19.6532C17.4335 19.7783 17.6911 19.6312 17.6911 19.3983Z" fill="#5095EC"/>
+            </svg>
+            <a class="header__planning-link" href="" >Schedule</a>             
+          </li>
+        </ul>
+      </div>
+      
+      <nav class="header__navigation navigation">
+        <ul class="navigation__list-1">
+          <li class="navigation__item navigation__item-current navigation__item-activity">
+            <a href="" class="navigation__link">Activity</a>
+          </li>
+          <li class="navigation__item navigation__item-map">
+            <a href="map.html" class="navigation__link">Map</a>
+          </li>
+          <li class="navigation__item navigation__item-time">
+            <a href="timer.html" class="navigation__link">Time</a>
+          </li>
+        </ul>
+        <ul class="navigation__list-2">
+          <li class="navigation__item navigation__item-notes">
+            <a href="" class="navigation__link">Notes</a>
+          </li>
+          <li class="navigation__item navigation__item-friends">
+            <a href="" class="navigation__link">Friends</a>
+          </li>
+          <li class="navigation__item navigation__item-photos">
+            <a href="" class="navigation__link">Photos</a>
+          </li>
+          <li class="navigation__item navigation__item-settings">
+            <p class="navigation__item-settings-title visually-hidden">Settings</p>
+            <a href="" class="navigation__link nav-settings-link">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.71387 9.99632C7.71387 9.81632 7.78387 9.64632 7.92387 9.51632C8.19387 9.27632 8.60387 9.29632 8.84387 9.55632L11.9901 13.0495L15.0079 9.56022C15.2479 9.29022 15.6579 9.28022 15.9279 9.52022C16.1879 9.76022 16.2079 10.1702 15.9679 10.4402L12.5101 14.4195C12.2301 14.7295 11.7501 14.7295 11.4701 14.4195L7.88387 10.4363C7.76387 10.3063 7.71387 10.1563 7.71387 9.99632Z" fill="#8F8F8F"/>
+              </svg>                
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="profile">
+      <div class="container profile__container">
+        <h2 class="visually-hidden">Hanna Dorman</h2>
+        <div class="profile-wrap">
+          <div class="profile-name-wrap">
+            <img class="profile-img" src="image/images/user-photo.jpg" alt="Фотография пользователя данной страницы">
+            <p class="profile-name">Hanna Dorman</p>
+            <p class="profile-job">UX/UI designer</p>
+            <ul class="profile-sm-list">
+              <li class="profile-sm-item">
+                <a href="" class="profile-link" aria-label="Ссылка на Telegram">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 0.3125C4.64813 0.3125 0.3125 4.64875 0.3125 10C0.3125 15.3512 4.64875 19.6875 10 19.6875C15.3519 19.6875 19.6875 15.3512 19.6875 10C19.6875 4.64875 15.3512 0.3125 10 0.3125ZM14.7581 6.94938L13.1681 14.4419C13.0506 14.9731 12.7344 15.1019 12.2931 14.8519L9.87125 13.0669L8.70312 14.1919C8.57438 14.3206 8.465 14.43 8.215 14.43L8.38688 11.965L12.875 7.91C13.0706 7.73812 12.8319 7.64062 12.5737 7.8125L7.02688 11.3044L4.63625 10.5581C4.11688 10.3944 4.105 10.0387 4.74563 9.78875L14.0856 6.18688C14.5194 6.03063 14.8981 6.2925 14.7575 6.94875L14.7581 6.94938Z" fill="#505050"/>
+                    <clipPath id="clip0_6_327">
+                    <rect width="20" height="20" fill="white"/>
+                    </clipPath>
+                  </svg>
+                </a>
+              </li>
+              <li class="profile-sm-item">
+                <a href="" class="profile-link" aria-label="Ссылка на HH.ru">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 20C15.5229 20 20 15.5229 20 10C20 4.47708 15.5229 0 10 0C4.47708 0 0 4.47708 0 10C0 15.5229 4.47708 20 10 20Z" fill="#505050"/>
+                    <path d="M5.68761 5.48706V8.88873C6.20552 8.27123 6.82636 7.96039 7.54636 7.96039C7.91719 7.96039 8.24927 8.03123 8.54719 8.17164C8.84594 8.31123 9.06927 8.49039 9.22011 8.70789C9.37177 8.92748 9.47427 9.16789 9.52969 9.43289C9.58469 9.69664 9.61219 10.1071 9.61219 10.6637V14.3008H8.00302V11.025C8.00302 10.375 7.97386 9.96331 7.91261 9.78831C7.85522 9.61688 7.74138 9.46999 7.58969 9.37164C7.43469 9.26706 7.24177 9.21539 7.00886 9.21539C6.74219 9.21539 6.50302 9.28206 6.29511 9.41456C6.08261 9.54789 5.93011 9.74706 5.83344 10.0133C5.73511 10.28 5.68594 10.6737 5.68761 11.195L5.68594 14.3008H4.07886V5.48706H5.68802H5.68761ZM12.0239 5.48706V8.88873C12.5422 8.27123 13.1626 7.96039 13.8822 7.96039C14.2518 7.96039 14.5864 8.03123 14.8847 8.17164C15.1822 8.31123 15.4055 8.49039 15.5555 8.70789C15.7069 8.92602 15.8122 9.17271 15.8651 9.43289C15.9205 9.69664 15.948 10.1071 15.948 10.6637V14.3008H14.3405V11.025C14.3405 10.375 14.3101 9.96331 14.2489 9.78831C14.1915 9.61665 14.0773 9.46968 13.9251 9.37164C13.7718 9.26706 13.5772 9.21539 13.3443 9.21539C13.078 9.21539 12.8389 9.28206 12.6305 9.41456C12.4209 9.54789 12.2676 9.74706 12.1697 10.0133C12.073 10.28 12.0239 10.6737 12.0239 11.195V14.3008H10.4168V5.48706H12.0239Z" fill="white"/>
+                    <clipPath id="clip0_6_330">
+                    <rect width="20" height="20" fill="white"/>
+                    </clipPath>
+                  </svg>                    
+                </a>
+              </li>
+              <li class="profile-sm-item">
+                <a href="" class="profile-link" aria-label="Ссылка на Twiter">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 19.3091C15.1413 19.3091 19.3091 15.1413 19.3091 10C19.3091 4.85874 15.1413 0.690918 10 0.690918C4.85874 0.690918 0.690918 4.85874 0.690918 10C0.690918 15.1413 4.85874 19.3091 10 19.3091Z" fill="#505050"/>
+                    <path d="M5.88716 6.58909C5.88716 6.58909 7.36352 8.25818 9.80716 8.53091C9.80716 8.53091 9.6908 7.13455 10.9308 6.35637C10.9308 6.35637 12.2108 5.50182 13.1817 6.74546C13.1817 6.74546 14.1126 6.55273 14.4617 6.32C14.4617 6.32 14.189 6.84728 13.7235 7.30182L14.7708 7.09455L13.7999 8.14182C13.7999 8.14182 14.189 11.6727 10.3272 13.5345C10.3272 13.5345 7.31989 14.6218 5.22534 13.1855C5.22534 13.1855 7.78534 12.7964 8.05807 12.2145C8.05807 12.2145 6.69807 12.0582 6.34898 10.8945L7.08716 10.8545C7.08716 10.8545 5.80716 10.7382 5.6508 8.91273L6.50534 9.02909C6.50898 9.03273 5.14898 8.64728 5.88716 6.58909Z" fill="white"/>
+                    <clipPath id="clip0_6_338">
+                    <rect width="20" height="20" fill="white"/>
+                    </clipPath>
+                  </svg>                    
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="profile__navigation-wrap">
+            <div class="profile__navigation-subwrap menu-subwrap">
+              <h3 class="profile__navigation-title subtitle">Navigation</h3>
+              <button class="profile__navigation-btn btn-arrow-up">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4.26636 12.8665C4.26636 13.0165 4.32469 13.1582 4.44136 13.2665C4.66636 13.4665 5.00802 13.4499 5.20802 13.2332L9.99161 7.9256L14.6166 13.2666C14.8166 13.4916 15.1583 13.4999 15.3833 13.2999C15.5999 13.0999 15.6166 12.7582 15.4166 12.5332L10.4249 6.78394C10.1916 6.5256 9.79161 6.5256 9.55827 6.78394L4.40802 12.4999C4.30802 12.6082 4.26636 12.7332 4.26636 12.8665Z" fill="#505050"/>
+                </svg>                  
+              </button>  
+            </div>
+
+            <nav class="profile__navigation page-nav">
+              <ul class="page-nav__list-1">
+                <li class="page-nav__item page-nav__item-myprof">
+                  <a class="page-nav__link" href="" >My profile</a>
+                </li>
+                <li class="page-nav__item page-nav__item-balance">
+                  <a class="page-nav__link" href="" >Balance</a>
+                  <p class="page-nav-balance">$ 1,430</p>
+                </li>
+                <li class="page-nav__item page-nav__item-connect">
+                  <a class="page-nav__link" href="" >Connections</a>
+                </li>
+                <li class="page-nav__item page-nav__item-friends">
+                  <a class="page-nav__link" href="" >Friends</a>
+                </li>
+              </ul>
+              <ul class="page-nav__list-2">
+                <li class="page-nav__item page-nav__item-events">
+                  <a class="page-nav__link" href="" >Events</a>
+                </li>
+                <li class="page-nav__item page-nav__item-settings">
+                  <a class="page-nav__link" href="" >Account settings</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="profile__message-wrap message">
+            <div class="message-title-wrap menu-subwrap">
+              <h3 class="message-title subtitle">Share your thoughts</h3>
+              <button class="message__btn btn-arrow-up">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4.26636 12.8665C4.26636 13.0165 4.32469 13.1582 4.44136 13.2665C4.66636 13.4665 5.00802 13.4499 5.20802 13.2332L9.99161 7.9256L14.6166 13.2666C14.8166 13.4916 15.1583 13.4999 15.3833 13.2999C15.5999 13.0999 15.6166 12.7582 15.4166 12.5332L10.4249 6.78394C10.1916 6.5256 9.79161 6.5256 9.55827 6.78394L4.40802 12.4999C4.30802 12.6082 4.26636 12.7332 4.26636 12.8665Z" fill="#505050"/>
+                </svg>  
+              </button>
+            </div>
+
+            <form class="message__form"
+                  action="https://jsonplaceholder.typicode.com/posts"
+                  enctype="application/x-www-form-urlencoded"
+                  method="get" >
+              <label class="visually-hidden" for="story">Enter your message</label>
+              <textarea class="message__input" name="story" id="story" cols="20" rows="5" placeholder="Enter your message..."></textarea>
+              <button class="message__btn-submit" type="submit">Save</button>
+            </form>
+          </div>
+          <article class="posts">
+            <h3 class="posts__title visually-hidden">Last post</h3>
+            <div class="posts__comment-autor-wrap">
+              <div class="posts__img-wrap">
+                <img class="posts-img" src="image/images/post-image.png" alt="Восходящее солнце, выглядывает из-за гор на переднем плане">
+                </div>
+              <p class="posts__comment-autor">
+                <a href="" class="posts__comment-autor-link">Jason Anderson</a>  
+                commented:
+              </p>
+              <figure class="posts__figure">
+                <blockquote  class="posts__blockquote">
+                  <p class="posts__blockquote-text">
+                    Don’t&nbsp;sit and wait. Get out there, feel life. Touch the sun, and immerse in&nbsp;the sea. 
+                    Keep love in&nbsp;your heart. A&nbsp;life without it&nbsp;is&nbsp;like a&nbsp;sunless 
+                    garden when the flowers are dead. Because summer is&nbsp;passion, memories, light breeze, 
+                    the sun that appears on&nbsp;the skin and caresses the face.
+                  </p>
+                </blockquote>
+                <figcaption class="posts__name-autor">– Jason, <time datetime="2022-10-12T10:30Z">10:30 am</time></figcaption>
+              </figure>
+              <div class="posts__other-comment-wrap">
+                <p class="posts__other-comments">432</p>
+                <button class="posts__comment-show-all">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 8C4 6.34315 5.34315 5 7 5H17C18.6569 5 20 6.34315 20 8V14C20 15.6569 18.6569 17 17 17H9.52219L6.1121 19.7281C5.26091 20.409 4 19.803 4 18.7129V8ZM5.3 18.7129L9.06617 15.7H17C17.9389 15.7 18.7 14.9389 18.7 14V8C18.7 7.06112 17.9389 6.3 17 6.3H7C6.06112 6.3 5.3 7.06112 5.3 8L5.3 18.7129ZM8.49219 9.64356C8.49219 9.28458 8.7832 8.99356 9.14219 8.99356H14.8579C15.2169 8.99356 15.5079 9.28458 15.5079 9.64356C15.5079 10.0025 15.2169 10.2936 14.8579 10.2936L9.14219 10.2936C8.7832 10.2936 8.49219 10.0025 8.49219 9.64356ZM8.49219 12.6361C8.49219 12.2771 8.7832 11.9861 9.14219 11.9861L12.7912 11.9861C13.1502 11.9861 13.4412 12.2771 13.4412 12.6361C13.4412 12.9951 13.1502 13.2861 12.7912 13.2861H9.14219C8.7832 13.2861 8.49219 12.9951 8.49219 12.6361Z" fill="#505050"/>
+                  </svg>
+                  <span class="posts__comment-show-all-txt">47</span>                  
+                </button>
+              </div>
+  
+            </div>
+            <article class="post-2">
+              <h3 class="post-2__title">Sunset Sunset Sunset</h3>
+              <div class="post-2__info-wrap">
+                <button class="post-2__btn btn-arrow-down">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.65 8.15343C12.65 7.79445 12.359 7.50344 12 7.50344C11.641 7.50344 11.35 7.79445 11.35 8.15343V12.6534C11.35 13.0124 11.641 13.3034 12 13.3034H16C16.359 13.3034 16.65 13.0124 16.65 12.6534C16.65 12.2945 16.359 12.0034 16 12.0034H12.65V8.15343Z" fill="#505050"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12ZM12 4.3C7.74741 4.3 4.3 7.74741 4.3 12C4.3 16.2526 7.74741 19.7 12 19.7C16.2526 19.7 19.7 16.2526 19.7 12C19.7 7.74741 16.2526 4.3 12 4.3Z" fill="#505050"/>
+                  </svg>                    
+                  <span class="post-2__timepost timepost">53 minutes ago</span>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.11963 8.56008C5.11963 8.38008 5.18963 8.21008 5.32963 8.08008C5.59963 7.84008 6.00963 7.86008 6.24963 8.12008L11.9899 14.4892L17.5399 8.08006C17.7799 7.81006 18.1899 7.80006 18.4599 8.04006C18.7199 8.28006 18.7399 8.69006 18.4999 8.96006L12.5099 15.8592C12.2299 16.1692 11.7499 16.1692 11.4699 15.8592L5.28963 9.00008C5.16963 8.87008 5.11963 8.72008 5.11963 8.56008Z" fill="#505050"/>
+                  </svg>                    
+                </button>
+              </div>
+            </article>
+            <article class="post-3">
+              <h3 class="post-3__title">Morning of Siberia</h3>
+              <div class="post-3__info-wrap">
+                <button class="post-3__btn btn-arrow-down">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.65 8.15343C12.65 7.79445 12.359 7.50344 12 7.50344C11.641 7.50344 11.35 7.79445 11.35 8.15343V12.6534C11.35 13.0124 11.641 13.3034 12 13.3034H16C16.359 13.3034 16.65 13.0124 16.65 12.6534C16.65 12.2945 16.359 12.0034 16 12.0034H12.65V8.15343Z" fill="#505050"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12ZM12 4.3C7.74741 4.3 4.3 7.74741 4.3 12C4.3 16.2526 7.74741 19.7 12 19.7C16.2526 19.7 19.7 16.2526 19.7 12C19.7 7.74741 16.2526 4.3 12 4.3Z" fill="#505050"/>
+                  </svg>         
+                  <span class="post-3__timepost timepost">56 minutes ago</span>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.11963 8.56008C5.11963 8.38008 5.18963 8.21008 5.32963 8.08008C5.59963 7.84008 6.00963 7.86008 6.24963 8.12008L11.9899 14.4892L17.5399 8.08006C17.7799 7.81006 18.1899 7.80006 18.4599 8.04006C18.7199 8.28006 18.7399 8.69006 18.4999 8.96006L12.5099 15.8592C12.2299 16.1692 11.7499 16.1692 11.4699 15.8592L5.28963 9.00008C5.16963 8.87008 5.11963 8.72008 5.11963 8.56008Z" fill="#505050"/>
+                  </svg>  
+                </button>
+              </div>
+            </article>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

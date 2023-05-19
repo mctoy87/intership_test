@@ -1,0 +1,343 @@
+
+/*main*/
+.profile {
+  padding-bottom: 43px;
+  padding-top: 32px;
+  background-color: #F1F1F1;
+}
+
+.profile__container {
+  padding: 0 32px 0 48px;
+}
+
+.profile-wrap {
+  display: grid;
+  grid-template-columns: 1fr 264px;
+  grid-template-rows: 296px 312px 190px;
+  grid-template-areas: 
+    "article name"
+    "article nav"
+    "article message";
+  gap: 32px 16px;
+}
+
+.profile-name-wrap {
+  grid-area: name;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+.profile-img {
+  border-radius: 50%;
+  object-fit: contain;
+  object-position: center;
+  margin-bottom: 16px;
+}
+
+.profile-sm-list{
+  display: flex;
+  gap: 8px;
+}
+
+.profile-name {
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 8px;
+}
+
+.profile-job {
+  margin-bottom: 16px;
+}
+
+.profile-navigation-wrap {
+  grid-area: nav;
+}
+
+.profile__message-wrap {
+  grid-area: message;
+}
+
+.posts {
+  grid-area: article;
+}
+
+/*navigation menu in page*/
+.profile__navigation-wrap {
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+}
+
+/*общие стили для закрытия меню навигации и сообщения*/
+.menu-subwrap{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 38px;
+  align-items: center;
+  border-bottom: 1px solid #D3D8DE;
+  padding: 0 16px;
+}
+
+.btn-arrow-up::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*общее стили для h3*/
+.subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.page-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-nav__list-1 {
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-bottom: 1px solid #D3D8DE;
+  padding: 16px 16px;
+}
+
+.page-nav__list-2 {
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 16px;
+}
+
+.page-nav__item {
+  position: relative;
+  flex-basis: 24px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+
+.page-nav__item-myprof {
+  background-image: url('../image/icon/person.svg');
+}
+.page-nav__item-balance {
+  background-image: url('../image/icon/finance.svg');
+}
+.page-nav__item-connect {
+  position: relative;
+  background-image: url('../image/icon/scheme.svg');
+}
+.page-nav__item-friends {
+  background-image: url('../image/icon/friends.svg');
+}
+
+.page-nav__item-events{
+  position: relative;
+  background-image: url('../image/icon/calendar.svg');
+}
+
+.page-nav__item-settings {
+  background-image: url('../image/icon/Settings-24px.svg');
+}
+
+.page-nav-balance {
+  font-size: 12px;
+  line-height: 14px;
+  color: #8F8F8F;
+}
+
+.page-nav__item-connect::after,
+.page-nav__item-events::after {
+  position: absolute;
+  right: 0;
+  width: 24px;
+  height: 16px;
+  color: #FFFFFF;
+  border-radius: 8px;
+  text-align: center;
+  pointer-events: none;
+}
+
+.page-nav__item-connect::after {
+  content: "29";
+  background-color: #E33939;
+}
+
+.page-nav__item-events::after{
+  content: "45";
+  background-color: #47B091;
+}
+
+.page-nav__link::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*message*/
+.message {
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+}
+
+.message__form {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 16px 16px;
+  gap: 8px;
+}
+
+.message__btn-submit {
+  flex-basis: 32px;
+  color:#FFFFFF;
+  background-color: #5095EC;
+  border-radius: 4px;
+}
+
+.message__input {
+  border: 1px solid #D3D8DE;
+  border-radius: 4px;
+  resize: none;
+  padding: 8px 16px;
+}
+
+.message__input::placeholder {
+  line-height: 20px;
+  color: #8F8F8F;
+}
+
+/*posts*/
+.posts {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.posts__comment-autor-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 56px 32px 32px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 32px;
+}
+
+.posts-img {
+  display: block;
+}
+
+.posts__comment-autor {
+  flex-basis: 24px;
+  padding: 5px 0 5px 32px;
+  background-image: url('../image/icon/comment.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.posts__comment-autor-link {
+  color: #5095EC;
+}
+
+.posts__figure {
+  padding-left: 8px;
+  border-left: 2px solid #D3D8DE;
+}
+
+.posts__blockquote {
+margin-bottom: 16px;
+}
+
+.posts__name-autor {
+  color: #8F8F8F;
+}
+
+.posts__name-autor time {
+  font-style: italic;
+}
+
+.posts__other-comment-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.posts__other-comments{
+  padding-left: 32px;
+  margin-right: 32px;
+}
+
+.posts__other-comments:before {
+  content: url('../image/icon/eye.svg');
+  position: absolute;
+  left: 0px;
+  bottom: -2px;
+}
+
+.posts__comment-show-all {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.posts__comment-show-all-txt {
+  color: #505050;
+} 
+
+/*Общие стили для постов-кнопок*/
+.post-2,
+.post-3 {
+  position: relative;
+  flex-basis: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFFFFF;
+  padding: 0 32px;
+  margin-bottom: 32px;
+}
+
+.btn-arrow-down {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.timepost {
+  margin-right: 8px;
+}
+
+.btn-arrow-down::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.post-2__title, 
+.post-3__title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #505050;
+}
