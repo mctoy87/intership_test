@@ -30,6 +30,8 @@
 
 .timer__wrapper {
   grid-area: timer;
+  display: flex;
+  gap: 3px;
 }
 
 .timer__btn {
