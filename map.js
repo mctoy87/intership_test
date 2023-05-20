@@ -1,4 +1,5 @@
-/*инициализируем функцию загрузки местоположения по требованию*/
+
+/* инициализируем функцию загрузки местоположения по требованию */
 function init() {
   let myMap = new ymaps.Map('map-test', {
     center: [59.924159318995876,30.24113793946679],
@@ -27,3 +28,10 @@ function init() {
 
 ymaps.ready(init);
 
+window.onload = function () {
+  document.body.classList.add('loaded_hiding');
+  window.setTimeout(function () {
+    document.body.classList.add('loaded');
+    document.body.classList.remove('loaded_hiding');
+  }, 500);
+}

@@ -30,6 +30,8 @@
 
 .map__wrapper {
   grid-area: map;
+  /*для preloader*/
+  position: relative;
   height: 100%;
 }
 
@@ -40,4 +42,32 @@
 .map__btn:hover {
   color: #000000;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+}
+
+/*preloader*/
+.preloader__image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+  margin-left: -35px;
+  text-align: center;
+  animation: preloader-rotate 2s infinite linear;
+}
+
+@keyframes preloader-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loaded_hiding .preloader {
+  transition: 0.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
 }
