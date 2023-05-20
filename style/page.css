@@ -54,6 +54,11 @@
   margin-bottom: 16px;
 }
 
+.profile-link:hover {
+  color:red;
+
+}
+
 .profile-navigation-wrap {
   grid-area: nav;
 }
@@ -81,6 +86,11 @@
   align-items: center;
   border-bottom: 1px solid #D3D8DE;
   padding: 0 16px;
+}
+
+.menu-subwrap:hover {
+  background-color: #D3D8DE;
+  color: #000000;
 }
 
 .btn-arrow-up::before {
@@ -132,6 +142,10 @@
   background-position: left top;
 }
 
+.page-nav__item:hover {
+  background-color: #5095EC;
+  color: #FFFFFF
+}
 
 .page-nav__item-myprof {
   background-image: url('../image/icon/person.svg');
@@ -213,6 +227,10 @@
   border-radius: 4px;
 }
 
+.message__btn-submit:hover {
+  outline: 1px solid #000000;
+}
+
 .message__input {
   border: 1px solid #D3D8DE;
   border-radius: 4px;
@@ -258,6 +276,11 @@
   color: #5095EC;
 }
 
+.posts__comment-autor-link:hover {
+  color:#E33939;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+}
+
 .posts__figure {
   padding-left: 8px;
   border-left: 2px solid #D3D8DE;
@@ -298,6 +321,12 @@ margin-bottom: 16px;
   align-items: center;
   gap: 8px;
 }
+
+.posts__comment-show-all:hover {
+  color: #E33939;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+}
+
 .posts__comment-show-all-txt {
   color: #505050;
 } 
@@ -313,6 +342,12 @@ margin-bottom: 16px;
   background: #FFFFFF;
   padding: 0 32px;
   margin-bottom: 32px;
+}
+
+.post-2:hover,
+.post-3:hover {
+  background-color: #FAFAFA;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
 }
 
 .btn-arrow-down {
@@ -339,5 +374,10 @@ margin-bottom: 16px;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
+  color: #505050;
+}
+
+.post-2__btn,
+.post-3__btn {
   color: #505050;
 }
