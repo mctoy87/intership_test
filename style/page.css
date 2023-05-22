@@ -381,3 +381,35 @@ margin-bottom: 16px;
 .post-3__btn {
   color: #505050;
 }
+
+@media (max-width: 768px) {
+  .profile-wrap {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+        "name"
+        "nav"
+        "message"
+        "article";
+    gap: 20px;
+  }
+
+  .posts__comment-autor-wrap,
+  .post-2 {
+    margin-bottom: 20px;
+  }
+
+  .post-3 {
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile {
+    padding-bottom: 20px;
+  }
+
+  .profile__container {
+    padding: 0 20px;
+  }
+}

@@ -71,3 +71,28 @@
 .loaded .preloader {
   display: none;
 }
+
+@media (max-width: 520px) {
+
+  .map__grid-wrap {
+    padding: 0;
+  }
+
+  .map__title {
+    padding-left: 5px;
+  }
+
+  .map__tools-wrap {
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .map {
+    padding: 20px 0;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+}
